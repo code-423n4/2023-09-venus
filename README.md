@@ -53,7 +53,7 @@ Some of the checklists in this doc are for **C4 (🐺)** and some of them are fo
   - Lookout awards: $2,400 USDC 
   - Scout awards: $500 USDC 
 - Join [C4 Discord](https://discord.gg/code4rena) to register
-- Submit findings [using the C4 form](https://code4rena.com/contests/2023-09-venus-protocol/submit)
+- Submit findings [using the C4 form](https://code4rena.com/contests/2023-09-venus-prime/submit)
 - [Read our guidelines for more details](https://docs.code4rena.com/roles/wardens)
 - Starts September 26, 2023 20:00 UTC 
 - Ends October 02, 2023 20:00 UTC 
