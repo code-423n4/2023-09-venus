@@ -42,7 +42,7 @@ Some of the checklists in this doc are for **C4 (🐺)** and some of them are fo
 
 ---
 
-# Venus Protocol audit details
+# Venus Prime audit details
 - Total Prize Pool: $36,500 USDC 
   - HM awards: $25,250 USDC 
   - Analysis awards: $1,000 USDC 
@@ -122,22 +122,22 @@ Automated findings output for the audit can be found [here](https://github.com/c
 
 ```
 - If you have a public code repo, please share it here:  
-- How many contracts are in scope?:   
-- Total SLoC for these contracts?:  
-- How many external imports are there?:  
-- How many separate interfaces and struct definitions are there for the contracts within scope?:  
-- Does most of your code generally use composition or inheritance?:   
-- How many external calls?:   
-- What is the overall line coverage percentage provided by your tests?:
-- Is this an upgrade of an existing system?:
-- Check all that apply (e.g. timelock, NFT, AMM, ERC20, rollups, etc.): 
-- Is there a need to understand a separate part of the codebase / get context in order to audit this part of the protocol?:   
-- Please describe required context:   
-- Does it use an oracle?:  
-- Describe any novel or unique curve logic or mathematical models your code uses: 
-- Is this either a fork of or an alternate implementation of another project?:   
-- Does it use a side-chain?:
-- Describe any specific areas you would like addressed:
+- How many contracts are in scope?:   12
+- Total SLoC for these contracts?:  1049
+- How many external imports are there?: 5 
+- How many separate interfaces and struct definitions are there for the contracts within scope?:  10
+- Does most of your code generally use composition or inheritance?:   Composition
+- How many external calls?:   13
+- What is the overall line coverage percentage provided by your tests?: 96%
+- Is this an upgrade of an existing system?: True; Venus Prime is a new token claimable by users who satisfy some constraints in terms of XVS staked (we'll upgrade the XVSVault implementation) and interactions with the markets (we'll upgrade the Comptroller implementation of the Venus Core pool)
+- Check all that apply (e.g. timelock, NFT, AMM, ERC20, rollups, etc.): Non ERC-20 Token
+- Is there a need to understand a separate part of the codebase / get context in order to audit this part of the protocol?:  Yes 
+- Please describe required context:   Layerzero Messaging layer, namely Endpoint contract: ProtocolSharedReserve (PSR) contract (https://github.com/VenusProtocol/protocol-reserve/tree/develop/contracts/ProtocolReserve) is one of the contracts that will distribute funds to the Venus Prime tokens. Funds are sent to the PSR contract in an automatic way from the Venus markets, and part of these funds are sent to the Venus Prime tokens on demand
+- Does it use an oracle?:  Yes; https://github.com/VenusProtocol/oracle - Under the hood this is an extra layer on top of Chainlink, Binance oracle, Pyth network and TWAP oracle, allowing the comparison of values returned to decide if they are valid or not
+- Describe any novel or unique curve logic or mathematical models your code uses: Not novel, but the Venus Prime boosts yields based on the Cobb-Douglas function, inspired by the Goldfinch rewards mechanism
+- Is this either a fork of or an alternate implementation of another project?:  False 
+- Does it use a side-chain?: False
+- Describe any specific areas you would like addressed: Please try to break the accounting (the rewards allocated to each user based on their behaviour)
 ```
 
 # Tests
