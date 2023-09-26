@@ -1,0 +1,7 @@
+@chainlink/=node_modules/@chainlink/
+@eth-optimism/=node_modules/@eth-optimism/
+@openzeppelin/=node_modules/@openzeppelin/
+@venusprotocol/=node_modules/@venusprotocol/
+eth-gas-reporter/=node_modules/eth-gas-reporter/
+hardhat-deploy/=node_modules/hardhat-deploy/
+hardhat/=node_modules/hardhat/
