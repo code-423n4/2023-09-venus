@@ -46,6 +46,13 @@ According to the logic of function `accrueInterest()`, it is possible that some 
 
 Prime tokens will be issued at the same time (same transaction) the Prime contracts are enabled, so the described scenario will not happen.
 
+### Fixed Math Library
+
+The [FixedMath0x.sol](./contracts/Tokens/Prime/libs/FixedMath0x.sol) implements the natural logarithm approximating the result with a Taylor series. Known issues:
+
+* The constant values to represent the different powers of `e` (`e^-32`, `e^-16`, etc.), are not as precise as they could be.
+* There is a minimum value set that will behave as the default for small enough inputs. This is the value `-63.875`, but the true minimum that can be reached is approximately -88.
+
 # Overview
 
 Venus Protocol is excited to announce Venus Prime, a revolutionary incentive program aimed to bolster user engagement and growth within the protocol. An integral part of [Venus Tokenomics v3.1](https://docs-v4.venus.io/governance/tokenomics), Venus Prime aims to enhance rewards and promote $XVS staking, focusing on markets including USDT, USDC, BTC and ETH.
