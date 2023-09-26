@@ -91,11 +91,7 @@ Main contracts in the scope of the contest:
 | [contracts/Tokens/Prime/libs/FixedMath.sol](https://github.com/code-423n4/2023-09-venus/blob/main/contracts/Tokens/Prime/libs/FixedMath.sol) | 26 | Library with mathematical operations | [@openzeppelin/contracts-upgradeable/utils/math/SafeCastUpgradeable.sol](https://www.openzeppelin.com/contracts)  |
 | [contracts/Tokens/Prime/libs/FixedMath0x.sol](https://github.com/code-423n4/2023-09-venus/blob/main/contracts/Tokens/Prime/libs/FixedMath0x.sol) | 181 | Library with mathematical operations | [@openzeppelin/contracts-upgradeable/utils/math/SafeCastUpgradeable.sol](https://www.openzeppelin.com/contracts)  |
 
-The following contracts are out of scope in this contest, but it will considered any finding related with the integration of Prime in these contracts:
 
-- Comptroller integration: [contracts/Comptroller/Diamond/facets/PolicyFacet.sol](https://github.com/VenusProtocol/venus-protocol/pull/196/files#diff-f912316d266d98c53d051770af1c56946e3ed1d9636970e83e2533e3ad5d09d1)
-- XVSVault integration: [contracts/XVSVault/XVSVault.sol](https://github.com/VenusProtocol/venus-protocol/pull/196/files#diff-ba34e5590dd9b2f2198d8098088d1a6fde6d4976728e9eadc4ef4c28201d9947)
-- [ProtocolShareReserve](https://github.com/VenusProtocol/protocol-reserve/blob/develop/contracts/ProtocolReserve/ProtocolShareReserve.sol)
 
 ## Out of scope
 
