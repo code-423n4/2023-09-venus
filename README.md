@@ -67,7 +67,7 @@ Main contracts in the scope of the contest:
   - In the [XVSVault](https://github.com/code-423n4/2023-09-venus/blob/main/contracts/XVSVault/XVSVault.sol), after depositing or requesting a withdrawal, the function `xvsUpdated` is invoked, to review the requirements of Prime holders.
   - These specific integrations with the Prime contract are in the scope of the contest. But the rest of the features/functions in these contracts are not in the scope of this contest.
 
-**Review [this document](./contracts/Tokens/Prime/README.md) for a more detailed and technical explanation of Venus Prime.**
+**Review [this document](https://github.com/code-423n4/2023-09-venus/blob/main/contracts/Tokens/Prime/README.md) for a more detailed and technical explanation of Venus Prime.**
 
 ## Links
 
@@ -81,24 +81,15 @@ Main contracts in the scope of the contest:
 
 # Scope
 
-[ ⭐️ SPONSORS: add scoping and technical details here ]
-
-- [ ] In the table format shown below, provide the name of each contract and:
-  - [ ] source lines of code (excluding blank lines and comments) in each *For line of code counts, we recommend running prettier with a 100-character line length, and using [cloc](https://github.com/AlDanial/cloc).* 
-  - [ ] external contracts called in each
-  - [ ] libraries used in each
-
-*List all files in scope in the table below (along with hyperlinks) -- and feel free to add notes here to emphasize areas of focus.*
-
 | Contract | SLOC | Purpose | Libraries used |  
 | ----------- | ----------- | ----------- | ----------- |
-| [contracts/Tokens/Prime/Prime.sol](contracts/Tokens/Prime/Prime.sol) | 581 | Souldbound token. **Main contract** of the feature. Prime holders will accrue rewards and they will be able to claim them when they want. | [@openzeppelin/contracts-upgradeable/token/ERC20/utils/SafeERC20Upgradeable.sol](https://www.openzeppelin.com/contracts) [@openzeppelin/contracts-upgradeable/security/PausableUpgradeable.sol](https://www.openzeppelin.com/contracts) [@venusprotocol/isolated-pools/contracts/MaxLoopsLimitHelper.sol] (https://github.com/VenusProtocol/isolated-pools) [@venusprotocol/governance-contracts/contracts/Governance/AccessControlledV8.sol](https://github.com/VenusProtocol/governance-contracts/blob/main/contracts/Governance/AccessControlledV8.sol) [@venusprotocol/oracle/contracts/interfaces/OracleInterface.sol](https://github.com/VenusProtocol/oracle) |
-| [contracts/Tokens/Prime/IPrime.sol](contracts/Tokens/Prime/IPrime.sol) | 6 | Interface of the Prime contract | |
-| [contracts/Tokens/Prime/PrimeStorage.sol](contracts/Tokens/Prime/PrimeStorage.sol) | 55 | Storage variables of the Prime contract | [@venusprotocol/oracle/contracts/interfaces/OracleInterface.sol](https://github.com/VenusProtocol/oracle) |
-| [contracts/Tokens/Prime/PrimeLiquidityProvider.sol](contracts/Tokens/Prime/PrimeLiquidityProvider.sol) | 166 | This contract provide liquidity to the Prime token, in an uniform way for a period of time. This liquidity is one of the two sources of funds supported by the Prime tokens. | [@openzeppelin/contracts-upgradeable/token/ERC20/utils/SafeERC20Upgradeable.sol](https://www.openzeppelin.com/contracts) [@openzeppelin/contracts-upgradeable/security/PausableUpgradeable.sol](https://www.openzeppelin.com/contracts) [@venusprotocol/governance-contracts/contracts/Governance/AccessControlledV8.sol](https://github.com/VenusProtocol/governance-contracts/blob/main/contracts/Governance/AccessControlledV8.sol) |
-| [contracts/Tokens/Prime/libs/Scores.sol](contracts/Tokens/Prime/libs/Scores.sol) | 24 | Library with the function `calculateScore`, used to calculate the score associated with a Prime holder, that will finally define the rewards allocated to the user | [@openzeppelin/contracts-upgradeable/utils/math/SafeCastUpgradeable.sol](https://www.openzeppelin.com/contracts)  |
-| [contracts/Tokens/Prime/libs/FixedMath.sol](contracts/Tokens/Prime/libs/FixedMath.sol) | 26 | Library with mathematical operations | [@openzeppelin/contracts-upgradeable/utils/math/SafeCastUpgradeable.sol](https://www.openzeppelin.com/contracts)  |
-| [contracts/Tokens/Prime/libs/FixedMath0x.sol](contracts/Tokens/Prime/libs/FixedMath0x.sol) | 181 | Library with mathematical operations | [@openzeppelin/contracts-upgradeable/utils/math/SafeCastUpgradeable.sol](https://www.openzeppelin.com/contracts)  |
+| [contracts/Tokens/Prime/Prime.sol](https://github.com/code-423n4/2023-09-venus/blob/main/contracts/Tokens/Prime/Prime.sol) | 581 | Souldbound token. **Main contract** of the feature. Prime holders will accrue rewards and they will be able to claim them when they want. | [@openzeppelin/contracts-upgradeable/token/ERC20/utils/SafeERC20Upgradeable.sol](https://www.openzeppelin.com/contracts) [@openzeppelin/contracts-upgradeable/security/PausableUpgradeable.sol](https://www.openzeppelin.com/contracts) [@venusprotocol/isolated-pools/contracts/MaxLoopsLimitHelper.sol] (https://github.com/VenusProtocol/isolated-pools) [@venusprotocol/governance-contracts/contracts/Governance/AccessControlledV8.sol](https://github.com/VenusProtocol/governance-contracts/blob/main/contracts/Governance/AccessControlledV8.sol) [@venusprotocol/oracle/contracts/interfaces/OracleInterface.sol](https://github.com/VenusProtocol/oracle) |
+| [contracts/Tokens/Prime/IPrime.sol](https://github.com/code-423n4/2023-09-venus/blob/main/contracts/Tokens/Prime/IPrime.sol) | 6 | Interface of the Prime contract | |
+| [contracts/Tokens/Prime/PrimeStorage.sol](https://github.com/code-423n4/2023-09-venus/blob/main/contracts/Tokens/Prime/PrimeStorage.sol) | 55 | Storage variables of the Prime contract | [@venusprotocol/oracle/contracts/interfaces/OracleInterface.sol](https://github.com/VenusProtocol/oracle) |
+| [contracts/Tokens/Prime/PrimeLiquidityProvider.sol](https://github.com/code-423n4/2023-09-venus/blob/main/contracts/Tokens/Prime/PrimeLiquidityProvider.sol) | 166 | This contract provide liquidity to the Prime token, in an uniform way for a period of time. This liquidity is one of the two sources of funds supported by the Prime tokens. | [@openzeppelin/contracts-upgradeable/token/ERC20/utils/SafeERC20Upgradeable.sol](https://www.openzeppelin.com/contracts) [@openzeppelin/contracts-upgradeable/security/PausableUpgradeable.sol](https://www.openzeppelin.com/contracts) [@venusprotocol/governance-contracts/contracts/Governance/AccessControlledV8.sol](https://github.com/VenusProtocol/governance-contracts/blob/main/contracts/Governance/AccessControlledV8.sol) |
+| [contracts/Tokens/Prime/libs/Scores.sol](https://github.com/code-423n4/2023-09-venus/blob/main/contracts/Tokens/Prime/libs/Scores.sol) | 24 | Library with the function `calculateScore`, used to calculate the score associated with a Prime holder, that will finally define the rewards allocated to the user | [@openzeppelin/contracts-upgradeable/utils/math/SafeCastUpgradeable.sol](https://www.openzeppelin.com/contracts)  |
+| [contracts/Tokens/Prime/libs/FixedMath.sol](https://github.com/code-423n4/2023-09-venus/blob/main/contracts/Tokens/Prime/libs/FixedMath.sol) | 26 | Library with mathematical operations | [@openzeppelin/contracts-upgradeable/utils/math/SafeCastUpgradeable.sol](https://www.openzeppelin.com/contracts)  |
+| [contracts/Tokens/Prime/libs/FixedMath0x.sol](https://github.com/code-423n4/2023-09-venus/blob/main/contracts/Tokens/Prime/libs/FixedMath0x.sol) | 181 | Library with mathematical operations | [@openzeppelin/contracts-upgradeable/utils/math/SafeCastUpgradeable.sol](https://www.openzeppelin.com/contracts)  |
 
 The following contracts are out of scope in this contest, but it will considered any finding related with the integration of Prime in these contracts:
 
@@ -300,7 +291,7 @@ yarn install # or `npm install`
 
 ## Testing
 
-Contract tests are defined under the [tests directory](./tests). To run the tests run:
+Contract tests are defined under the [tests directory](https://github.com/code-423n4/2023-09-venus/tree/main/tests). To run the tests run:
 
 ```
 
