@@ -1,0 +1,7 @@
+contracts/Tokens/Prime/Prime.sol
+contracts/Tokens/Prime/IPrime.sol
+contracts/Tokens/Prime/PrimeStorage.sol
+contracts/Tokens/Prime/PrimeLiquidityProvider.sol
+contracts/Tokens/Prime/libs/Scores.sol
+contracts/Tokens/Prime/libs/FixedMath.sol
+contracts/Tokens/Prime/libs/FixedMath0x.sol
