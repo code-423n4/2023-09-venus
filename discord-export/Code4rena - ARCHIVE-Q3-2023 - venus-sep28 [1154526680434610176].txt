@@ -1,0 +1,2384 @@
+==============================================================
+Guild: Code4rena
+Channel: ARCHIVE-Q3-2023 / venus-sep28
+==============================================================
+
+[09/22/2023 15:30] xariextz
+Hey! Is the code new or does it have common parts with the previous audit?
+
+
+[09/25/2023 11:05] daureos
+it will be a new code. No overlapping with the code in the scope of the last Venus contest here (isolated pools)
+
+{Reactions}
+✅ (15) 
+
+[09/25/2023 16:26] 0k_sec
+I’m happy to work with you again 🫡
+
+{Reactions}
+❤️ (3) 
+
+[09/25/2023 20:19] 0xlucian (pinned)
+Gm to everyone. Approaching the contest I would like to share the timezones of our team. Please expect any answers from us during the day ( 9 AM - 9 PM )
+@0xLucian - GMT + 3
+@chechu - GMT + 2
+@kkirka - GMT + 3
+@narayanprusty - GMT + 1
+@Manmeet22 - GMT + 5
+
+Good luck and looking forward to a good contest! 🚀 🙏🏻
+
+{Reactions}
+👍 (4) 🚀 🔥 
+
+[09/25/2023 20:24] itsmetechjay
+Pinned a message.
+
+
+[09/25/2023 20:27] kartoonjoy (pinned)
+👋 Hello and welcome to the audit channel for the $36,500 USDC **Venus Prime** audit!
+
+📆 Audit opens 09/28/2023 20:00 (20:00 UTC) and runs through 10/04/2023 20:00 (20:00 UTC) (6 days).
+
+Please give a warm welcome to the Venus Protocol team, particularly @0xLucian, @chechu. @kkirka, @narayanprusty, who will be available for questions either here in the channel or via DM in the GMT +1, GMT +2, and GMT +3 timezone(s).
+
+We'll be posting relevant links, documentation, etc. here, so if you intend to participate in this audit, consider enabling notifications for this channel. 🐺 ⏰
+
+Audit Page: https://code4rena.com/contests/2023-09-venus-prime#top
+
+{Embed}
+https://code4rena.com/contests/2023-09-venus-prime
+Code4rena
+Code4rena is a competitive audit platform that finds more high-severity vulnerabilities, more quickly than any other auditing method.
+Code4rena - ARCHIVE-Q3-2023 - venus-sep28 [1154526680434610176].txt_Files/c4-og-banner-5486A.png
+
+{Reactions}
+🫡 (15) 
+
+[09/25/2023 20:27] kartoonjoy
+Pinned a message.
+
+
+[09/27/2023 06:30] 14si2o_flint
+Do I need a lot more sleep or was the contest supposed to start last night at 10pm? I'm 99% sure it said "venus-sep26"...
+
+
+[09/27/2023 06:38] proxy1967
+It got rescheduled 😦
+
+{Reactions}
+👍 thisisfine 
+
+[09/27/2023 06:46] 14si2o_flint
+-_-
+
+
+[09/28/2023 20:24] 0k_sec
+hey, when i clone the repo it show this in the terminal and file is empty 
+```
+error: invalid path '.npmignore '
+fatal: unable to checkout working tree
+warning: Clone succeeded, but checkout failed.
+You can inspect what was checked out with 'git status'
+and retry with 'git restore --source=HEAD :/'
+
+
+```
+
+
+[09/28/2023 20:27] pfapostol
+use zip until fix
+
+{Reactions}
+🫡 
+
+[09/28/2023 20:29] daureos
+I'm not able to reproduce it
+
+{Attachments}
+Code4rena - ARCHIVE-Q3-2023 - venus-sep28 [1154526680434610176].txt_Files/Screenshot_2023-09-28_at_22.26.17-C2482.png
+
+
+[09/28/2023 20:32] 0k_sec
+idk, it shows errors to me and the file is empty, is there anyone else face the same problem or it's only me please?
+
+
+[09/28/2023 20:34] 0xbtk
+Same here, download ZIP worked for me
+
+{Reactions}
+🙏🏻 
+
+[09/28/2023 20:41] daureos
+which OS are you using? windows?
+
+
+[09/28/2023 20:52] 0k_sec
+Windows, downloaded it with zip and it worked, but git clone it not working in case someone want to clone it
+
+
+[09/28/2023 20:52] castle_chain
+where to find this contract ?? `ResilientOracleInterface`
+
+
+[09/28/2023 20:55] daureos
+https://github.com/VenusProtocol/oracle
+
+{Reactions}
+❤️ 
+
+[09/28/2023 20:55] daureos
+I found this, just in case: https://stackoverflow.com/questions/63727594/github-git-checkout-returns-error-invalid-path-on-windows
+
+{Reactions}
+❤️ 
+
+[09/28/2023 20:56] 0k_sec
+Thank you ser 🫡
+
+
+[09/28/2023 20:57] daureos (pinned)
+apart from the README file in the root folder of the repo, I would suggest everyone to read this readme file (linked in the root file): https://github.com/code-423n4/2023-09-venus/blob/main/contracts/Tokens/Prime/README.md
+
+it includes deeper explanations of the Prime feature
+
+{Reactions}
+👍🏻 
+
+[09/28/2023 21:08] daureos (pinned)
+some repositories with code related with the Prime feature:
+
+ProtocolShareReserve: https://github.com/VenusProtocol/protocol-reserve
+ResilientOracle: https://github.com/VenusProtocol/oracle
+AccessControl: https://github.com/VenusProtocol/governance-contracts
+MaxLoopsLimitHelper: https://github.com/VenusProtocol/isolated-pools/blob/develop/contracts/MaxLoopsLimitHelper.sol
+
+{Reactions}
+❤️ (7) 
+
+[09/28/2023 21:09] itsmetechjay
+Pinned a message.
+
+
+[09/28/2023 21:09] itsmetechjay
+Pinned a message.
+
+
+[09/28/2023 21:10] daureos (pinned)
+our DM's are open, don't hesitate to ask us any doubt, we'll do our best to clarify them. As a reminder, here you have our timezones, taken them into account:
+
+@0xLucian - GMT + 3
+@chechu  - GMT + 2
+@kkirka  - GMT + 3
+@narayanprusty - GMT + 1
+@Manmeet22 - GMT + 5
+
+{Reactions}
+👍 (2) 
+
+[09/28/2023 21:11] itsmetechjay
+Pinned a message.
+
+
+[09/28/2023 21:12] asui0944
+where will the users stake their XVS tokens ?
+There is a claim function in the prime contract but i couldn't find a staking function
+
+
+[09/28/2023 21:14] daureos
+in the XVSVault: https://github.com/code-423n4/2023-09-venus/blob/main/contracts/XVSVault/XVSVault.sol
+
+{Embed}
+https://github.com/code-423n4/2023-09-venus/blob/main/contracts/XVSVault/XVSVault.sol
+2023-09-venus/contracts/XVSVault/XVSVault.sol at main · code-423n4/...
+Contribute to code-423n4/2023-09-venus development by creating an account on GitHub.
+Code4rena - ARCHIVE-Q3-2023 - venus-sep28 [1154526680434610176].txt_Files/39e762b8-44ee-4035-aac7-04643a30dcc2-5B2FE
+
+{Reactions}
+👍 
+
+[09/28/2023 21:20] asui0944
+is this a contract which is already in used by the venus protocol or is it a new one created specifically for this new project ?
+
+
+[09/28/2023 23:02] daureos
+the XVSVault is already deployed, and it will be upgrade with the code in the repo of the contest
+
+XVSVaultProxy: https://bscscan.com/address/0x051100480289e704d20e9db4804837068f3f9204
+
+Current implementation of the XVSVault: https://bscscan.com/address/0x0cf9a22e790d89b8e58469f217b50bb4c3ab068c
+
+{Embed}
+https://bscscan.com/address/0x051100480289e704d20e9db4804837068f3f9204
+XVSVaultProxy | Address 0x051100480289e704d20e9db4804837068f3f9204 ...
+The Contract Address 0x051100480289e704d20e9db4804837068f3f9204 page allows users to view the source code, transactions, balances, and analytics for the contract address. Users can also interact and make transactions to the contract directly on BscScan.
+Code4rena - ARCHIVE-Q3-2023 - venus-sep28 [1154526680434610176].txt_Files/BscScan-logo-circle-AC319.jpg
+
+{Embed}
+https://bscscan.com/address/0x0cf9a22e790d89b8e58469f217b50bb4c3ab068c
+XVSVault | Address 0x0cf9a22e790d89b8e58469f217b50bb4c3ab068c | Bsc...
+The Contract Address 0x0cf9a22e790d89b8e58469f217b50bb4c3ab068c page allows users to view the source code, transactions, balances, and analytics for the contract address. Users can also interact and make transactions to the contract directly on BscScan.
+Code4rena - ARCHIVE-Q3-2023 - venus-sep28 [1154526680434610176].txt_Files/BscScan-logo-circle-AC319.jpg
+
+
+[09/28/2023 23:09] sovaslava9
+Hello team. Have made fixes from previous audits? You would like recheck or you add new functions after your last audits?
+
+
+[09/28/2023 23:09] 0xbtk
+https://discord.com/channels/810916927919620096/1154526680434610176/1155822368057475073
+
+{Reactions}
+🙏🏼 
+
+[09/28/2023 23:11] velislav4o4298
+Did someone managed to install dependency's. I miss bot registration because of this 🥲
+
+
+[09/28/2023 23:33] japy69
+try "npm install" 😉
+
+
+[09/28/2023 23:49] velislav4o4298
+Doesn't work tryed --force aswell
+
+{Reactions}
+👍 
+
+[09/29/2023 00:12] squeaky_cactus
+Which OS and error(s) are you encountering?
+
+On Windows Subsystem for Linux, I needed to:
+1. Update NodeJS
+2. Update NPM
+3. `npm install --force`
+
+There were still warning about HH versions not being found, but the install worked and likewise for the tests, there were warning but they executed and passed.
+
+
+[09/29/2023 00:53] velislav4o4298
+I am using windows none of that help --force kinda works but my bot can't read it saying make sure you can compile it giving me sloc error
+
+
+[09/29/2023 01:43] 0xdemonnn
+i cant install it too, got stuck on the process
+
+
+[09/29/2023 02:04] squeaky_cactus
+After switching over to Windows and trying out a clean checkout ...I`m also getting a failure, mine is with Git 🤔
+
+```
+Cloning into '2023-09-venus'...
+remote: Enumerating objects: 605, done.
+remote: Counting objects: 100% (605/605), done.
+remote: Compressing objects: 100% (469/469), done.
+remote: Total 605 (delta 124), reused 578 (delta 111), pack-reused 0
+Receiving objects: 100% (605/605), 3.37 MiB | 6.09 MiB/s, done.
+Resolving deltas: 100% (124/124), done.
+error: invalid path '.npmignore '
+fatal: unable to checkout working tree
+warning: Clone succeeded, but checkout failed.
+You can inspect what was checked out with 'git status'
+and retry with 'git restore --source=HEAD :/'
+```
+
+
+[09/29/2023 02:30] velislav4o4298
+👀
+
+
+[09/29/2023 02:31] squeaky_cactus
+Ah, I see the problem ...there's a whitespace in the filename! 
+
+```error: invalid path ".npmignore "```
+
+Being the helpful soul, I've raised PR (https://github.com/code-423n4/2023-09-venus/pull/6), it may not be the only fix required, but at least it will move things along to the next Window's specific setup problem. 😁
+
+
+[09/29/2023 02:33] velislav4o4298
+C4 should make sure that doesn't happen on bot registration as its 1 hour window and they should test it before deploying it
+
+
+[09/29/2023 02:35] squeaky_cactus
+I'm sure the C4 folks will read this channel at some point in their work day
+
+
+[09/29/2023 02:36] velislav4o4298
+👍
+
+
+[09/29/2023 03:38] 0x11singh99
+@Jay | C4  please look into this
+
+
+[09/29/2023 03:57] _3agle
+What does "Soulbound Token" mean?
+
+
+[09/29/2023 04:24] squeaky_cactus
+Usually a SoulBound token is one that once minted (initial transfer to an address) cannot ever be transferred again.
+
+{Reactions}
+👍 
+
+[09/29/2023 04:34] 0xa5df
+This seems to resolve the issue, I've merged the PR
+Thank you!
+
+{Reactions}
+chefskiss thankyou 
+
+[09/29/2023 04:45] _3agle
+A short summary on Venus Protocol for the "first-timers"
+https://x.com/X3agleX/status/1707616911595627000?s=20
+
+{Embed}
+3agle (@X3agleX)
+https://twitter.com/X3agleX/status/1707616911595627000?s=20
+I am auditing the @VenusProtocol's Prime Token on @code4rena  for the first time, so I had to look up what it does and how it works.
+
+Here's a short summary 🧵 if you are in a similar situation 👇
+Twitter
+
+{Reactions}
+🔥 (7) 
+
+[09/29/2023 05:44] puneetshekhar
+hey guys , i am having an issue with downloading dependencies and going up and forth in contract, i could't figure out what's the problem. can anyone help me out
+
+
+[09/29/2023 05:44] _3agle
+@chechu sent a DM
+
+
+[09/29/2023 05:52] 0x3b
+How many different markets can exist?
+Or there is not a fixed number?
+
+
+[09/29/2023 06:14] _3agle
+I think markets mean pools of different tokens, from where you can either supply or borrow based on your collateral. And if my understanding is correct then the governance can add as many markets (token pools) as they want
+
+{Reactions}
+❤️ 
+
+[09/29/2023 06:44] superman_i4g
+Drop the error message you are getting; maybe som1 can help
+
+
+[09/29/2023 07:25] kawaicho
+which contracts are updated, because it is audited before
+
+
+[09/29/2023 07:25] kawaicho
+or all of the files are new
+
+
+[09/29/2023 07:25] kawaicho
+?
+
+
+[09/29/2023 07:29] alymurtazamemon
+Check the files in the scope section of the contest page
+
+{Reactions}
+👍🏻 
+
+[09/29/2023 09:19] 0xlucian (pinned)
+@everyone Hello guys. Please before asking questions regarding the meaning of some variable and the mechanics of the project do read our technical documentation here https://github.com/code-423n4/2023-09-venus/blob/main/contracts/Tokens/Prime/README.md . Our team put alot of effor to provide you with this technical document. So in order to save ourselves time, read thoroughly the document first and then if you still have any uncertanties we will be more than happy to help you
+
+{Embed}
+https://github.com/code-423n4/2023-09-venus/blob/main/contracts/Tokens/Prime/README.md
+2023-09-venus/contracts/Tokens/Prime/README.md at main · code-423n4...
+Contribute to code-423n4/2023-09-venus development by creating an account on GitHub.
+Code4rena - ARCHIVE-Q3-2023 - venus-sep28 [1154526680434610176].txt_Files/39e762b8-44ee-4035-aac7-04643a30dcc2-5B2FE
+
+{Reactions}
+🫡 (2) 
+
+[09/29/2023 09:21] oot2k
+@0xLucian  can I dm you?
+
+
+[09/29/2023 09:21] 0xlucian
+Sure go ahead
+
+
+[09/29/2023 09:53] 0xflaming0
+Have these contracts been audited before?
+
+
+[09/29/2023 10:20] _paperparachute
+Pinned a message.
+
+
+[09/29/2023 10:25] daureos
+yes, they have been audited: https://github.com/code-423n4/2023-09-venus#links
+
+Peckshield and Fairyproof audit reports are public, linked in the previous link
+
+OpenZeppelin and Certik also audited the code. The mitigations associated with their reports are included in the codebase of the contest, but their reports are not public yet
+
+{Reactions}
+❤️ 
+
+[09/29/2023 11:02] saint6704
+What are some of the known issues?
+
+
+[09/29/2023 11:03] daureos
+https://github.com/code-423n4/2023-09-venus#automated-findings--publicly-known-issues
+
+
+[09/29/2023 11:04] nmirchev8
+So the current codebase has 4 previous audits 😮
+
+
+[09/29/2023 11:23] 0x11singh99
+🫡
+
+
+[09/29/2023 11:28] saint6704
+I mean apart from these like I couldn't see bot report updated.
+
+
+[09/29/2023 12:01] superman_i4g
+The past audits on Venus prime are 2 or 4? Cus in the repo here it's only 2 (peck-shield and fairyproof)
+
+
+[09/29/2023 12:07] daureos
+the two reports in the repo are the public ones. The reports from OZ and Certik are not still public. They will be public after the contest. Not because we want to hide something (every mitigation associated with those reports has been already applied in the codebase for the contest), but because we were not able to complete the full audit process with them before the starting date of the contest
+
+{Reactions}
+✅ (4) 
+
+[09/29/2023 13:13] 0x3b
+Does anyone know who is gonna be the c4 judge for Venus?
+And is the 2x increase on PoCs gonna count like in Maia?
+
+
+[09/29/2023 13:34] xariextz
+I cannot find the contract IncomeDestination😅
+
+
+[09/29/2023 14:40] daureos
+https://github.com/code-423n4/2023-09-venus/blob/main/contracts/Tokens/Prime/Interfaces/IIncomeDestination.sol
+
+{Reactions}
+👍 
+
+[09/29/2023 14:57] superman_i4g
+Sent you DM, Chechu🙌🏽
+
+
+[09/29/2023 16:05] kawaicho
+What is Irrevocable OG Prime Token
+
+{Attachments}
+Code4rena - ARCHIVE-Q3-2023 - venus-sep28 [1154526680434610176].txt_Files/image-8FC4A.png
+
+
+[09/29/2023 16:05] kawaicho
+because this image doesn't explain it
+
+
+[09/29/2023 16:20] daureos
+* revocable tokens: if the user unstakes some of their XVS, and the new staked amount is below 1,000 XVS, then the token is burnt
+* irrevocable tokens: they are not burnt when the total amount of XVS staked is below 1,000 XVS
+
+irrevocable tokens can be minted only via VIP (Venus Improvement Proposal), after a vote of the Venus community. Revocable tokens should be "easier" to get: as soon as the user satisfies the requirements (staking more than 1,000 XVS for 90 days), a revocable token can be claimed by the user. It doesn't need a VIP
+
+the benefit of a irrevocable token is that it doesn't depend on the staked XVS. If you have a irrevocable Prime token, you can have only 500 XVS staked in the XVSVault, for example (this is from the technical point of view; from the business point of view, probably user with irrevocable Prime tokens already have a lot of XVS staked in the vault)
+
+the criteria to receive an irrevocable Prime token are not specified yet, but they would be be harder to satisfy than the revocable tokens criteria
+
+moreover, take into account that a revocable token can be "upgrade" to be irrevocable (via VIP), but an irrevocable token cannot be downgrade to be revocable
+
+regarding rewards, both tokens are considered the same way, and the same inputs (XVS staked and borrowed and supplied amounts) will be taken into account to calculate the rewards
+
+{Reactions}
+👍 (8) 🙌 
+
+[09/29/2023 16:47] saint6704
+@chechu sent you a fr
+
+
+[09/29/2023 16:56] thebrittfactor (pinned)
+**Automated Findings / Publicly Known Issues**
+
+Automated findings output for the audit can be found [here](https://gist.github.com/code423n4/9e80eddfb29953d8b5a424084a54e4ed).
+
+*Note for C4 wardens: Anything included in the automated findings output is considered a publicly known issue and is ineligible for awards.*
+
+{Reactions}
+thankyou 
+
+[09/29/2023 16:56] thebrittfactor
+Pinned a message.
+
+
+[09/29/2023 17:14] mahdirostami
+@chechu I DMed you sir.
+
+
+[09/29/2023 17:20] proxy1967
+What is `primeRewardToken` ? If I understand correctly users stake XVS for 90 days they get a revocable soulbound prime token. How does `primeRewardToken` come into play? Do they earn that when they have the prime token? Is that USDC, USDT, etc or something else ?
+
+
+[09/29/2023 17:43] narayanprusty
+XVSVault can have many pools each identified by reward token and pool id. So here we are pointing to the pool where users can stake to mint prime tokens.
+
+
+[09/29/2023 17:52] proxy1967
+Is the `primeRewardToken` XVS then?
+
+
+[09/29/2023 17:52] narayanprusty
+Yes.
+
+{Reactions}
+chefskiss 
+
+[09/29/2023 17:52] proxy1967
+got it thanks
+
+
+[09/29/2023 18:37] 0k_sec
+all details in this repo is up to date right ?
+https://github.com/code-423n4/2023-09-venus/blob/main/contracts/Tokens/Prime/README.md
+
+{Embed}
+https://github.com/code-423n4/2023-09-venus/blob/main/contracts/Tokens/Prime/README.md
+2023-09-venus/contracts/Tokens/Prime/README.md at main · code-423n4...
+Contribute to code-423n4/2023-09-venus development by creating an account on GitHub.
+Code4rena - ARCHIVE-Q3-2023 - venus-sep28 [1154526680434610176].txt_Files/39e762b8-44ee-4035-aac7-04643a30dcc2-5B2FE
+
+
+[09/29/2023 20:40] nmirchev8
+What is actually "alpha"?
+
+
+[09/29/2023 21:10] plamkata
+Check out what a cobb douglss function is
+
+{Reactions}
+❤️ (2) 
+
+[09/29/2023 21:10] plamkata
+Alpha is the exponent which acts as a weight
+
+{Reactions}
+❤️ 
+
+[09/29/2023 21:10] plamkata
+And is initally 0.5 to have a balanced exponent
+
+
+[09/29/2023 22:42] fulum
+Hi,  are the instances of ProtocolShareReserve deployed to have example of values on this contract ? 🙂
+
+
+[09/29/2023 23:11] daureos
+they should be. Don't hesitate to DM us if you think there is something wrong
+
+{Reactions}
+🫡 
+
+[09/29/2023 23:15] daureos
+alpha is one of the parameters used to calculate the scores of the users. The scores are used to calculate the rewards. You can read more about how the rewards are calculate, and the meaning of alpha here: https://github.com/code-423n4/2023-09-venus/blob/main/contracts/Tokens/Prime/README.md#rewards
+
+{Reactions}
+❤️ 
+
+[09/29/2023 23:18] daureos
+no, ProtocolShareReserve is not yet deployed. You can see the values of the distribution rules here: https://docs-v4.venus.io/whats-new/automatic-income-allocation#key-aspects-of-automatic-income-allocation
+
+those rules satisfies the requirements of the Tokenomics of the project, that you can review here: https://docs-v4.venus.io/governance/tokenomics
+
+
+[09/29/2023 23:18] fulum
+Thanks
+
+{Reactions}
+❤️ 
+
+[09/30/2023 02:00] sunsec
+@chechu sent u a fr plz.
+
+
+[09/30/2023 04:30] 0x3b
+Does the vToken have the same decimals as it's underlying?
+
+
+[09/30/2023 04:56] _3agle
+The XVS token has 18 decimals, right?
+
+
+[09/30/2023 06:10] proxy1967
+yes
+
+
+[09/30/2023 06:11] proxy1967
+
+
+{Attachments}
+Code4rena - ARCHIVE-Q3-2023 - venus-sep28 [1154526680434610176].txt_Files/image-5A77D.png
+
+{Reactions}
+👍 (2) 
+
+[09/30/2023 06:43] superman_i4g
+Brace yourselves; this codebase is going to be hard to crack, let's do this🔥
+
+{Reactions}
+🦅 
+
+[09/30/2023 07:08] plamkata
+My bad for asking this but what did PSR and PLP stand for
+
+
+[09/30/2023 07:08] _3agle
+PSR: ProtocolShareReserve
+don't know for PLP
+
+
+[09/30/2023 07:09] plamkata
+prime liqudity provider
+
+
+[09/30/2023 07:09] plamkata
+man I am dumb thank you xd
+
+{Reactions}
+👍 (2) 
+
+[09/30/2023 09:54] 7a4raf
+Why does _pause() get called inside the initialization ~ prime.sol#166
+
+
+[09/30/2023 10:10] pheonix244001
+Has anyone found test cases for prime.sol ?
+
+
+[09/30/2023 10:11] daureos
+> Does the vToken have the same decimals as it's underlying?
+
+not usually. Every VToken has 8 decimals in the Venus Protocol (it could be different, but it isn't). Regarding underlying tokens, they usually have 18 decimals, but there are several ones with less decimals. For example TRX has 6 decimals
+
+every underlying token of the markets we'll include initially in the Prime program has 18 decimals
+
+BTC: https://bscscan.com/address/0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c
+ETH: https://bscscan.com/address/0x2170Ed0880ac9A755fd29B2688956BD959F933F8
+USDT: https://bscscan.com/address/0x55d398326f99059fF775485246999027B3197955
+USDC: https://bscscan.com/address/0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d
+
+
+[09/30/2023 10:13] daureos
+https://github.com/code-423n4/2023-09-venus/blob/main/tests/hardhat/Prime/Prime.ts
+https://github.com/code-423n4/2023-09-venus/blob/main/tests/hardhat/Prime/PrimeLiquidityProvider.ts
+https://github.com/code-423n4/2023-09-venus/blob/main/tests/hardhat/integration/index.ts
+
+
+[09/30/2023 10:15] daureos
+we had the idea of deploying Prime initially with the `claimInterest` feature paused, being conservative. And after confirming the rewards are being allocated as expected unpause it
+
+{Reactions}
+👍 (2) 
+
+[09/30/2023 10:33] j4x_98
+Send you a fr @chechu
+
+{Reactions}
+👍 
+
+[09/30/2023 10:40] 0xbtk
+@chechu Req sent
+
+{Reactions}
+👍 
+
+[09/30/2023 10:48] plamkata
+@chechu @kkirka @0xLucian sent dms
+
+{Reactions}
+👍 
+
+[09/30/2023 11:11] xariextz
+@chechu Sent FR and DM
+
+{Reactions}
+👍 
+
+[09/30/2023 11:38] santipu_
+Is it possible to remove a boosted market from receiving rewards?
+
+
+[09/30/2023 11:38] _3agle
+I don't think that they have any way to remove a market in the current implementation
+
+
+[09/30/2023 11:40] santipu_
+And what if there is a need for removing a market? Because of a hack or market volatility...
+
+{Reactions}
+🤷‍♂️ (2) 🧐 
+
+[09/30/2023 12:02] plamkata
+users do not use the market
+
+
+[09/30/2023 12:12] proxy1967
+How does `PrimeLiquidityProvider` get funds ?
+
+{Reactions}
+☝️ (2) 
+
+[09/30/2023 12:47] 0k_sec
+its explained in their docs and how the funds get into the system, please check these links below :
+
+https://github.com/code-423n4/2023-09-venus/blob/main/contracts/Tokens/Prime/README.md#income-collection-and-distribution
+
+https://github.com/code-423n4/2023-09-venus/blob/main/contracts/Tokens/Prime/README.md#bootstrap-liquidity-for-the-prime-program
+
+{Embed}
+https://github.com/code-423n4/2023-09-venus/blob/main/contracts/Tokens/Prime/README.md
+2023-09-venus/contracts/Tokens/Prime/README.md at main · code-423n4...
+Contribute to code-423n4/2023-09-venus development by creating an account on GitHub.
+Code4rena - ARCHIVE-Q3-2023 - venus-sep28 [1154526680434610176].txt_Files/39e762b8-44ee-4035-aac7-04643a30dcc2-5B2FE
+
+
+[09/30/2023 12:49] 0k_sec
+best thing to do in this case (imo) is sending all accrued rewards to the users and their tokens before the market removed
+
+
+[09/30/2023 13:16] 0k_sec
+where can i find the XVSVault please ?
+
+
+[09/30/2023 13:20] _3agle
+contracts/XVSVault/XVSVault.sol
+
+{Reactions}
+❤️ 
+
+[09/30/2023 13:20] 0k_sec
+thank you ser
+
+{Reactions}
+✌️ 
+
+[09/30/2023 13:37] xariextz
+Sorry if this was already answered, but how are the judges going to evaluate this contest's findings? I am refferring to the debate about always including a PoC etc
+
+
+[09/30/2023 13:45] nmirchev8
+There is /XVSVault folder inside /contracts
+
+
+[09/30/2023 13:51] nmirchev8
+Can someone explain what exactly borrow/supply position for a user stands for? Is it the ration of the given user for the borrowed assets from a given market and staked XVS, or?
+
+
+[09/30/2023 14:03] 0k_sec
+if you mean providing POCs is required or not, well in most of findings there should be a good POCs foundry test case or scenario in this way you give a better idea about your vuln.
+
+
+[09/30/2023 14:24] .ke1cam
+do you guys know which contracts call `issue` and `getPendingInterests` in Prime.sol?
+
+
+[09/30/2023 15:03] superman_i4g
+To avoid heartbreaks; I recommend you include POCs for better understanding and clarification of your findings.
+
+
+[09/30/2023 15:29] _3agle
+Creating PoCs in TS is 🤯
+
+{Reactions}
+🌚 (3) 
+
+[09/30/2023 15:32] chainnue
+I assume the judge is different in venus, but a PoC is surely a plus. in case you missed, the debate was started by maia's contest judge, and this is his latest words https://discord.com/channels/810916927919620096/1153743259965857873/1156249166251577454
+
+
+[09/30/2023 15:47] plamkata
+I reckon the oracle used in the capital calculation is a chainlink oracle?
+
+
+[09/30/2023 16:06] japy69
+Hi, maybe I missed something but I don't find the proxy contract used here. Where can I find it ?
+
+
+[09/30/2023 16:23] santipu_
+@chechu Sent DM
+
+{Reactions}
+👍 
+
+[09/30/2023 17:13] xariextz
+@chechu  Sent DM
+
+{Reactions}
+👍 
+
+[09/30/2023 17:41] daureos
+"remove" a Prime market is not implemented. It's not easy, and probably not desired. There will be users with claimable interests, generated before we want to remove that market, and they have the right to claim them. An alternative could be to set the multipliers for the market to 0, so no more rewards will be accrued for the user from that moment, but users will be able to claim their interests until that moment
+
+
+[09/30/2023 17:44] daureos
+a user stakes XVS in the XVSVault
+a user supplies tokens into a Venus market (i.e. into the BTC market)
+a user borrows tokens from a Venus market (i.e. from the ETH market)
+
+it exists the usual dependency in the lending protocols: the total amount of supplied tokens should be enough to "cover" the total borrowed amount by the user. This is not anything specific for Prime, it's just how loans with collateral usually works on blockchain
+
+{Reactions}
+👍 
+
+[09/30/2023 17:45] daureos
+`issue` will be invoked by Governance. `getPendingInterests` will be invoked (at least) by the Venus dApp, deployed at https://app.venus.io
+
+{Reactions}
+❤️ (2) 
+
+[09/30/2023 17:46] daureos
+it is actually our ResilientOracle (https://github.com/VenusProtocol/oracle/blob/develop/contracts/ResilientOracle.sol), that uses Chainlink (and other oracles, like Binance Oracle, Pyth network and TWAP) under the hood
+
+
+[09/30/2023 17:55] daureos
+it will be the Openzeppelin TransparentUpgradeableProxy, or the optimized version provided by Hardhat (https://github.com/wighawag/hardhat-deploy/blob/master/solc_0.8/proxy/OptimizedTransparentUpgradeableProxy.sol)
+
+{Reactions}
+👍 
+
+[09/30/2023 18:03] fulum
+I dm you @chechu
+
+
+[09/30/2023 22:45] fulum
+In`Prime::_capitalForScore`, the `oracle.getPrice(xvsToken)` and `oracle.getUnderlyingPrice(market)` return a value in 1e18 decimals ? Or can be other decimals depends on the market ?
+
+
+[10/01/2023 00:33] olanre_waju
+Please what determines the score of a user, and does it change with block?
+
+
+[10/01/2023 02:37] squeaky_cactus
+Started a thread.
+
+
+[10/01/2023 05:43] norah7603
+@Manmeet22 , Please check your DM.
+
+
+[10/01/2023 05:52] _3agle
+Has anyone created a basic Foundry setup for this, would be really helpful to create PoCs
+
+
+[10/01/2023 07:27] superman_i4g
+Thought the tests are written in HardHat? So you can write your POCs test in the test provided although only if you know HardHat🌚
+
+
+[10/01/2023 07:43] nmirchev8
+Where we can see PSR implementation?
+
+
+[10/01/2023 08:13] 7a4raf
+does it matter if a user stores his tokens for more than 90 days?
+user alice stores tokens for 100 days
+user bob stores tokens for 200 days 
+is user bob eligible for more rewards than alice?
+
+
+[10/01/2023 08:18] nmirchev8
+Yes, because then you start earning interest.
+Bob was able to claim his Prime token earlier, i.e. has gained more interest for that time.
+
+
+[10/01/2023 08:30] proxy1967
+https://discord.com/channels/810916927919620096/1154526680434610176/1157061191936508004
+
+{Reactions}
+❤️ 
+
+[10/01/2023 08:34] 7a4raf
+thanks
+
+{Reactions}
+🤘 
+
+[10/01/2023 10:56] sp1cymeatball
+Has anyone managed to run a forge test on this project? I'm currently struggling with incompatible solidity versions with older contracts that use ^0.5.16.
+
+
+[10/01/2023 11:00] alymurtazamemon
+I am working on it from last 24 hours
+
+
+[10/01/2023 11:01] alymurtazamemon
+Really struggling in this project
+
+
+[10/01/2023 11:01] alymurtazamemon
+you should use `getCode` cheatcode to deploy contract and use interfaces to interact with contract.
+
+
+[10/01/2023 11:02] xariextz
+You have to run hardhat test, no Foundry ones
+
+
+[10/01/2023 11:02] alymurtazamemon
+we know it
+
+
+[10/01/2023 11:02] xariextz
+Okay😀
+
+
+[10/01/2023 11:03] sp1cymeatball
+I'm afraid I'm in the failed compilation phase😀 . Did you manage to compile and run your own foundry test?
+
+
+[10/01/2023 11:04] alymurtazamemon
+still on the deployment phase there are so many contracts and permissions, but satisfied because things are working
+
+
+[10/01/2023 11:04] alymurtazamemon
+after completing deployment phase will try the tests
+
+
+[10/01/2023 11:05] sp1cymeatball
+what forge-std and solc version do you use?
+
+
+[10/01/2023 11:06] alymurtazamemon
+0.8.0
+
+
+[10/01/2023 11:06] alymurtazamemon
+^0.8.0
+
+
+[10/01/2023 11:07] alymurtazamemon
+foundry does not support multiple versions yet, and for older versions you need to deploy the mocks or you need artifacts and interfaces to interact with the older versions.
+
+
+[10/01/2023 11:16] sp1cymeatball
+yup, I managed to run a simple test with my custom interface for the vToken. Thanks for the insight :hi5: !
+
+{Reactions}
+👍 
+
+[10/01/2023 11:47] santipu_
+And if in a future you include more markets with underlying tokens different than 18 decimals it should also work correctly right?
+
+
+[10/01/2023 11:47] 0k_sec
+hey, term capped is kind new to me in logic like this, can someone tell me what capped refers to here or in the whole docs please ?
+`Split (4) proportional to the (capped) borrow and supply amounts of the user in that market at that moment`
+
+
+[10/01/2023 11:50] saint6704
+user rewards are only dependent on XVS staked or it also depends on the value of alpha?
+and how the value of alpha is decided?
+@chechu
+
+
+[10/01/2023 11:52] 0k_sec
+with my understanding it depends on alpha too, and alpha can change the rewards result as its happen in this example:
+check Significance of a section, @chechu  correct me if im wrong about this please
+https://github.com/code-423n4/2023-09-venus/blob/main/contracts/Tokens/Prime/README.md#rewards
+
+{Embed}
+https://github.com/code-423n4/2023-09-venus/blob/main/contracts/Tokens/Prime/README.md
+2023-09-venus/contracts/Tokens/Prime/README.md at main · code-423n4...
+Contribute to code-423n4/2023-09-venus development by creating an account on GitHub.
+Code4rena - ARCHIVE-Q3-2023 - venus-sep28 [1154526680434610176].txt_Files/39e762b8-44ee-4035-aac7-04643a30dcc2-5B2FE
+
+
+[10/01/2023 11:54] santipu_
+For what I understand, the protocol limits the user supply/borrow amounts that can be 'qualifiable' for rewards in the Prime program based on a 'market multiplier' and the staked amount of `XVS` tokens. 
+This way they incentivize a balance between `XVS` staked and borrow/supply amounts.
+
+
+[10/01/2023 11:54] saint6704
+yes you are right it is dependent on many things including alpha
+do you have any idea how is alpha calculated?
+
+
+[10/01/2023 11:55] 0k_sec
+they set the alpha to 0.5 but it can be changed.
+
+
+[10/01/2023 11:56] 0k_sec
+yeah i know that but what capped refers to specifically ? 
+here we use capped balance or:
+```
+Assuming the user has the following positions:
+borrow: 30 USDT. Let's say it's capped at 15 USDT, so we'll consider 15 USDT
+supply: 10 USDT. Let's say it's also capped at 15 USDT, so we'll consider 10 USDT
+```
+what did it capped at mean here ? is it the saved borrrow supply as you mentioned ?
+
+
+[10/01/2023 11:56] saint6704
+`A default weight of 0.5 weight has been evaluated as a good ratio and is not likely to be changed. A higher value will only be needed if we want to attract more XVS stake from the Prime token holders at the expense of supply/ borrow rewards.`
+
+it says higher value can be set
+
+
+[10/01/2023 11:57] 0k_sec
+yeah as i mentioned it can be changed but it can't be above 1 as i know:
+`A higher value of α increases the weight on stake contributions in the determination of rewards and decreases the weight on supply/borrow contributions. The value of α is between 0-1`
+
+{Reactions}
+👍 
+
+[10/01/2023 12:07] santipu_
+Capped it literally means 'having upper limit' or 'limited'.
+So if the capped supply is 15 USDT, the qualifiable supply is limited to 15 USDT. If you have more supply balance than that, it will only take into account 15 USDT.
+Like in the example, if you have 30 USDT, or even 30000 USDT, it will only consider 15 USDT for calculating the rewards.
+
+{Reactions}
+👆 👍🏻 (2) 
+
+[10/01/2023 12:35] 0k_sec
+oh i see, its clear now thanks a lot ser 🫡
+
+{Reactions}
+🫡 
+
+[10/01/2023 13:11] 0k_sec
+prime tokens always mentioned as unique so is it erc721 or another erc than erc20 !?
+
+
+[10/01/2023 13:26] xariextz
+As it is written in the contest info: Non ERC-20 Token
+
+
+[10/01/2023 13:32] j4x_98
+I think it adheres to no ERC, also in opposite of ERC721 where one address can have multiple unique tokens, for Prime one address can at max have one token (revocable or irrevocable)
+
+{Reactions}
+🙏🏻 👍🏻 
+
+[10/01/2023 14:10] fulum
+I will make some foundry tests with mocks to demonstrate certains things, you can simply add foundry on top of hardhat, it's easy to install it 🙂 https://hardhat.org/hardhat-runner/docs/advanced/hardhat-and-foundry
+
+{Embed}
+https://hardhat.org/hardhat-runner/docs/advanced/hardhat-and-foundry
+Integrating with Foundry | Ethereum development environment for pro...
+Ethereum development environment for professionals by Nomic Foundation
+Code4rena - ARCHIVE-Q3-2023 - venus-sep28 [1154526680434610176].txt_Files/card-1C40E.jpg
+
+{Reactions}
+🙌 (2) 
+
+[10/01/2023 14:42] 0xsl1
+For anyone wondering about values of alpha, here is a simple python script that will generate a graph to see how changing a value of alpha affects the apy. 
+
+https://gist.github.com/kazantseff/7a52fa49ce480d00162a4a6a645e075e
+
+{Embed}
+https://gist.github.com/kazantseff/7a52fa49ce480d00162a4a6a645e075e
+Python script to generate a graph representing a relation of xvs to...
+Python script to generate a graph representing a relation of xvs to apy - script.py
+Code4rena - ARCHIVE-Q3-2023 - venus-sep28 [1154526680434610176].txt_Files/gist-og-image-14833.png
+
+{Reactions}
+👍 🫡 
+
+[10/01/2023 14:43] 0xsl1
+Just set the values and it will produce something like this:
+
+{Attachments}
+Code4rena - ARCHIVE-Q3-2023 - venus-sep28 [1154526680434610176].txt_Files/apy_vs_xvs-AA706.png
+
+{Reactions}
+👍 (3) 
+
+[10/01/2023 14:43] 0xsl1
+Hope it help!
+
+
+[10/01/2023 15:09] zuhaibmohd
+@chechu dropped a DM, plz check
+
+
+[10/01/2023 15:48] _3agle
+Appreciated 🙏
+
+
+[10/01/2023 15:50] saint6704
+@chechu can you check the dms please
+
+
+[10/01/2023 16:04] glcanvas
+Hello! In terms of  Cobb-Douglas function:  what does mean production of `XVS staked amount for user i` and `Sum of qualified supply and borrow balance for user i` (with corresponded pows, of course) in formula from https://github.com/code-423n4/2023-09-venus/blob/main/contracts/Tokens/Prime/README.md#rewards
+
+Because if consider case from Wiki: https://en.wikipedia.org/wiki/Cobb–Douglas_production_function#Formulation here `Y` is `total production`, but what is `Y` for Prime?
+
+{Embed}
+https://en.wikipedia.org/wiki/Cobb%E2%80%93Douglas_production_function
+Cobb–Douglas production function
+In economics and econometrics, the Cobb–Douglas production function is a particular functional form of the production function, widely used to represent the technological relationship between the amounts of two or more inputs (particularly physical capital and labor) and the amount of output that can be produced by those inputs. The Cobb–Douglas...
+Code4rena - ARCHIVE-Q3-2023 - venus-sep28 [1154526680434610176].txt_Files/Cobbdouglas-40038.jpg
+
+{Embed}
+https://github.com/code-423n4/2023-09-venus/blob/main/contracts/Tokens/Prime/README.md
+2023-09-venus/contracts/Tokens/Prime/README.md at main · code-423n4...
+Contribute to code-423n4/2023-09-venus development by creating an account on GitHub.
+Code4rena - ARCHIVE-Q3-2023 - venus-sep28 [1154526680434610176].txt_Files/39e762b8-44ee-4035-aac7-04643a30dcc2-5B2FE
+
+
+[10/01/2023 16:52] 0xprinc
+what is reward index which is written in the interest struct ?
+```
+    struct Interest {
+        uint256 accrued;
+        uint256 score;
+        uint256 rewardIndex;
+    }
+```
+
+
+[10/01/2023 17:56] daureos
+mapping (more or less) the concepts in Prime with the concepts mentioned in the link you provided for the Cobb-Douglas formula:
+
+* Y, the production, would be the user score
+* L, labour, would be the `XVS staked amount for user i`
+* K, capital, would be the `Sum of qualified supply and borrow balance for user i`
+
+regarding the exponents, we have:
+* beta, the exponent of the labour component, would be our alpha
+* alpha, the exponent of the capital component, would be our (1 - alpha)
+
+{Reactions}
+❤️ (4) 
+
+[10/01/2023 17:58] saint6704
+@chechu what is rewardIndex
+
+
+[10/01/2023 18:03] daureos
+`markets[vToken].rewardIndex` is the variable where the income to be distributed divided by the sum of the user scores is accumulated. Visually, it is the red area of the rewards formula you can find attached and in the following link: https://github.com/code-423n4/2023-09-venus/blob/main/contracts/Tokens/Prime/README.md#rewards
+
+{Attachments}
+Code4rena - ARCHIVE-Q3-2023 - venus-sep28 [1154526680434610176].txt_Files/Screenshot_2023-10-01_at_19.27.05-545B8.png
+
+{Embed}
+https://github.com/code-423n4/2023-09-venus/blob/main/contracts/Tokens/Prime/README.md
+2023-09-venus/contracts/Tokens/Prime/README.md at main · code-423n4...
+Contribute to code-423n4/2023-09-venus development by creating an account on GitHub.
+Code4rena - ARCHIVE-Q3-2023 - venus-sep28 [1154526680434610176].txt_Files/39e762b8-44ee-4035-aac7-04643a30dcc2-5B2FE
+
+
+[10/01/2023 18:03] nmirchev8
+And OZ audit was completed prev or after the fairlyproof and peckshield ones?
+
+
+[10/01/2023 18:04] daureos
+after
+
+{Reactions}
+🛡️ 
+
+[10/01/2023 18:12] 0xprinc
+so [ rewards = score / rewards index ]
+
+
+[10/01/2023 18:12] 0xprinc
+?
+
+
+[10/01/2023 18:17] trachev
+should be multiplication instead of division
+
+
+[10/01/2023 18:19] 0xprinc
+oh ya
+
+
+[10/01/2023 18:23] daureos
+`interests[market][account].rewardIndex` is the same concept, but per user. So, we can use it to really know how much rewards we have to allocate for a user.
+
+Example:
+* block 0, variables initialized to default values
+* block 10: in these 10 blocks the income to distribute is 20 USDT, and the sum of the user scores is 50, so we add to `markets[vToken].rewardIndex` +0.4 (this can be interpreted like: any Prime holder will receive 0.4 USDT per score point, associated to the block period 0-10)
+* block 30: in these 20 blocks the income to distribute is 10 USDT (the income to distribute doesn't have to be constant). The sum of users scores didn't change. So, `markets[vToken].rewardIndex` is incremented with +0.2
+* block 35: one user claims a Prime token.
+  ** first, `markets[vToken].rewardIndex` will be updated (invoking `accrueInterest` from `_initializeMarkets`). In these 5 blocks the income was 5 USDT and the sum of users scores didn't change, so we increment `markets[vToken].rewardIndex` with +0.1
+  ** then `interests[market][account].rewardIndex` will be set to `markets[market].rewardIndex`. This means something like: the track of this users start at this point, when `markets[market].rewardIndex` was 0.7 (0.4 + 0.2 + 0.1)
+* block 50, the previous user claim interests
+  ** first, `markets[vToken].rewardIndex` will be updated (invoking `accrueInterest` from `getInterestAccrued`). In these 15 blocks the income was 120 USDT, and the sum of user scores changed (because we have a new Prime holder). Let's assume the num sum of user scores is 60, so `markets[vToken].rewardIndex` is incremented with +2. New `markets[vToken].rewardIndex` is 2.7
+  ** then, the interest for the user are calculated in `_interestAccrued`. To do that, first we subtract `interests[market][account].rewardIndex` from `markets[vToken].rewardIndex`: 2.7 - 0.7 = 2 (USDT per score point) and then we multiply that number times the user score (10): 2 * 10 = 20 USDT: interests accrued by the user until now
+
+{Reactions}
+🔥 (5) 
+
+[10/01/2023 18:25] daureos
+after doing this, `interests[vToken][user].rewardIndex` is set to the new `markets[vToken].rewardIndex` (this means something like: we restart tracking the history of the user, the interests accrued in the past are already claimed)
+
+
+[10/01/2023 18:31] daureos
+Venus Protocol doesn't support underlying tokens with more than 18 decimals. Except that, everything should work, right. So, for example, if we would include the market of TRX (decimals of the underlying token: 6), everything should work
+
+
+[10/01/2023 18:37] daureos
+the Venus Resilient Oracle (used by Prime) has the same behavior that Compound's oracles. The decimals of the returned value are `36 - decimals(underlying token)`. Examples:
+
+* USDT, with 18 decimals. The response from the Oracle will have 18 decimals
+* TRX, with 6 decimals. The response from the Oracle will have 30 decimals
+
+the main advantage of this is that if you multiply the response from the Oracles by an amount defined in underlying tokens, and you divide the result by 1e18, you will get the USD value of those underlying tokens with 18 decimals, always
+
+{Reactions}
+👍 
+
+[10/01/2023 18:49] cache_and_burn
+What is the primary use of the issue function?
+
+
+[10/01/2023 18:50] daureos
+issue the initial set of Prime tokens, to the users that were staking more than 1,000 XVS tokens for the last 90 days. Moreover, it will be used to issue the irrevocable tokens (the business criteria for issuing these irrevocable tokens are not defined yet)
+
+{Reactions}
+👌 
+
+[10/01/2023 18:57] blutorque
+hey one question, why the burn() is restricted, Is it bc the user could be malicious or protocol want to forcefully removed??
+
+
+[10/01/2023 18:57] blutorque
+@chechu
+
+
+[10/01/2023 19:02] sp1cymeatball
+@chechu what's the difference between the MockProtocolShareReserve and the real PSR?
+
+
+[10/01/2023 19:07] daureos
+if `burn` doesn't have access limited anyone could burn your Prime token. We cannot allow that
+
+
+[10/01/2023 19:07] daureos
+both contracts are out of the scope of the contest
+
+
+[10/01/2023 19:08] sp1cymeatball
+it's for the testing purposes 😀. Just wanted to know, should I deploy the real one or the mock is functionally the same?
+
+
+[10/01/2023 19:43] glcanvas
+By whom and when tokens sends to the `PrimeLiquidityProvider`?
+
+
+[10/01/2023 22:38] mike_bello90
+what is a round?
+
+
+[10/01/2023 22:40] shahen.0000
+Have the same question
+
+
+[10/02/2023 04:34] 0xc86
+is there any flow chart available?(by the project team/made by anyone here),,with actors,interaction-steps & everything
+
+
+[10/02/2023 04:36] _3agle
+I asked this question and they pointed me to this chart
+
+{Attachments}
+Code4rena - ARCHIVE-Q3-2023 - venus-sep28 [1154526680434610176].txt_Files/spaces2FSfxZmzf9N5T5Npv859XY2Fuploads2FOaI-DA3B9.png
+
+
+[10/02/2023 04:38] 0xc86
+Thanks a lot ser!
+
+{Reactions}
+✌️ 
+
+[10/02/2023 05:15] pascal9476
+What is the basic difference between score and interest
+
+
+[10/02/2023 05:25] 0xscourgedev
+@chechu What is ballpark for the amount of markets expected for the protocol?
+
+
+[10/02/2023 05:42] thetechnofeak
+how to find the userflow in this project? how do u people do it
+
+
+[10/02/2023 06:03] daniel_dimitrov5
+The user deposits at least 1000 XVS in XVSVault.sol (out of scope) with the `deposit` function. Then waits 90 days and claims his Prime token with the `claim` function in Prime.sol. Once the use has a prime token he is basically receiving interest that can be collected at any time with `claimInterest` in Prime.sol. Understanding the logic behind the reward system is up to you.
+
+{Reactions}
+❤️ (2) 
+
+[10/02/2023 06:12] 0x3b
+Interest is the amount of rewards generated per **1 point of score** (ex. 2 USDC) and score is the points each user has.
+Example:
+User1 `score-10` && `interest-2 USDC` => reward of 20 USDC
+
+
+[10/02/2023 06:12] thetechnofeak
+Appreciate it, thnks
+
+{Reactions}
+🚀 
+
+[10/02/2023 06:22] pascal9476
+Ohh okay makes more sense now
+
+{Reactions}
+❤️ 
+
+[10/02/2023 06:22] pascal9476
+Thank you
+
+
+[10/02/2023 06:35] 0xhacksmithh
+May be noob question, how to read report if it shows like below and even can't able to download pdf file
+
+
+[10/02/2023 06:36] 0xhacksmithh
+
+
+{Attachments}
+Code4rena - ARCHIVE-Q3-2023 - venus-sep28 [1154526680434610176].txt_Files/IMG_20231002_120304-93852.jpg
+
+
+[10/02/2023 06:36] mahdirostami
+when you clone the repo, you could go to audit folder and open it
+
+
+[10/02/2023 06:37] jaguar1999
+download the file
+
+
+[10/02/2023 06:37] mahdirostami
+It happens because of the size of the file
+
+
+[10/02/2023 06:37] 0xhacksmithh
+Actually unable to download
+
+
+[10/02/2023 06:37] 0xhacksmithh
+Download never starts for me
+
+
+[10/02/2023 06:37] 0xhacksmithh
+Tried multiple times
+
+
+[10/02/2023 06:38] mahdirostami
+clone it
+
+
+[10/02/2023 06:39] 0xhacksmithh
+Yeah thanks,
+
+
+[10/02/2023 06:49] proxy1967
+Can anyone explain `rewardIndex` to me ? is it like a multiplier ?
+
+
+[10/02/2023 07:13] 0x3b
+why not go into the audit repor?
+
+
+[10/02/2023 07:13] 0x3b
+This one is by venus, not c4
+
+
+[10/02/2023 07:14] 0x3b
+`rewardIndex` is basically interest without the score 
+https://discordapp.com/channels/810916927919620096/1154526680434610176/1158285262489665587
+
+{Reactions}
+chefskiss 
+
+[10/02/2023 07:15] mahdirostami
+@Proxy There is an Interest struct for each user and a Market struct for each market.
+Both of them have `rewardIndex`.
+`rewardIndex` is used to track how much gap is between these two `rewardIndex`.
+For example, when a user _claimInterest(), his `rewardIndex` becomes equal to the market's `rewardIndex`.
+@chechu If I'm wrong, please correct me
+
+{Reactions}
+👍 (2) 
+
+[10/02/2023 07:22] delvir0
+Hi, where is the logic of staking 1,000 XVS which sets `stakedAt`?
+
+
+[10/02/2023 07:24] proxy1967
+`xvsUpdated()` ?
+
+
+[10/02/2023 07:24] _3agle
+=> Prime.sol
+```js
+/**
+     * @notice Used to get if the XVS balance is eligible for prime token
+     * @param amount amount of XVS
+     * @return isEligible true if the staked XVS amount is enough to consider the associated user eligible for a Prime token, false otherwise
+     */
+    function isEligible(uint256 amount) internal view returns (bool) {
+        if (amount >= MINIMUM_STAKED_XVS) {
+            return true;
+        }
+
+        return false;
+    }
+```
+
+
+[10/02/2023 08:02] delvir0
+Ah my bad didn't explain it correctly, it's `XVSVault`
+
+
+[10/02/2023 08:09] thetechnofeak
+what does these qualifiable terms mean , both of them - i cannot understand its context
+
+{Attachments}
+Code4rena - ARCHIVE-Q3-2023 - venus-sep28 [1154526680434610176].txt_Files/image-AFFBC.png
+
+
+[10/02/2023 08:10] proxy1967
+I think it could also be eligible
+
+
+[10/02/2023 08:10] proxy1967
+basically the minimum to get the prime token
+
+
+[10/02/2023 08:12] thetechnofeak
+why is that '0' then in the first condition for every other case?
+
+
+[10/02/2023 08:13] thetechnofeak
+what does that signify
+
+
+[10/02/2023 08:15] proxy1967
+if staked XVS > 1000 then the user is eligible to get get the prime token
+
+
+[10/02/2023 08:16] proxy1967
+if not then assume the user has no xvs staked basically
+
+
+[10/02/2023 08:16] proxy1967
+at least for calculating the score
+
+
+[10/02/2023 08:17] thetechnofeak
+aah okay
+
+
+[10/02/2023 08:17] thetechnofeak
+so the counting starts only when a user hits the mark of 1000 XVS staked , r8?
+
+
+[10/02/2023 08:18] proxy1967
+think so yea
+
+{Reactions}
+🔥 
+
+[10/02/2023 08:18] thetechnofeak
+okk got it , thnks
+
+{Reactions}
+chefskiss 
+
+[10/02/2023 08:33] daureos
+anyone could do it, and it should work. Venus Community will send to the PLP contract the rewards allocated for Prime during these months. This will probably be done in the same VIP (Venus Improvement Proposal) when the Prime program is enabled, issuing the Prime tokens to the users who staked at least 1,000 XVS during the last 90 days
+
+
+[10/02/2023 08:37] daureos
+it's not a critical concept for the Prime program. It's only used in the context of updating the alpha or the multiplier values. After doing that it could be needed to update the scores of the users. Because there could be several updates of the alpha/multipliers in the future, the contract group these pending updates in rounds, just to track effectively the users to update
+
+check this for more info: https://github.com/code-423n4/2023-09-venus/blob/main/contracts/Tokens/Prime/README.md#update-cap-multipliers-and-alpha
+
+{Reactions}
+👌🏻 
+
+[10/02/2023 08:40] thetechnofeak
+i understand that there is a limiting 'cap' onto the amount of lending and borrowing capacity , but what is the marketmultipliers used here , like BORROWMULTIPLIER & SUPPLYMULTIPLIER, How are they calculated and what does that depend upn ??
+
+
+[10/02/2023 08:41] thetechnofeak
+
+
+{Attachments}
+Code4rena - ARCHIVE-Q3-2023 - venus-sep28 [1154526680434610176].txt_Files/image-CCDE4.png
+
+
+[10/02/2023 08:43] daureos
+I talked about `rewardIndex` here: https://discord.com/channels/810916927919620096/1154526680434610176/1158101841846997104
+
+and here: https://discord.com/channels/810916927919620096/1154526680434610176/1158107050774114315
+
+including an example
+
+{Reactions}
+chefskiss 
+
+[10/02/2023 08:43] thetechnofeak
+@chechu can u help me with this
+
+
+[10/02/2023 08:44] daureos
+multipliers are params set by the Venus Community, using a VIP (Venus Improvement Proposal), after passing a vote
+
+{Reactions}
+🙌 
+
+[10/02/2023 08:45] thetechnofeak
+oh so that means , that doesnt have to be concerned with the inscope parameters
+
+
+[10/02/2023 08:46] thetechnofeak
+which means they cannot be accessed by us and is totally random?
+
+
+[10/02/2023 08:47] daureos
+we'll start with USDT, USDC, BTC and ETH on BNB chain. Not yet defined more markets will be included in the future, or what markets will be added for the other chains (Ethereum mainnet, Arbitrum, Polygon zkEVM and opBNB)
+
+{Reactions}
+👍 
+
+[10/02/2023 08:50] daureos
+not random, there will be offchain analysis and risk evaluations. Proposals will be done to the community and the community will decide if those values are ok for them
+
+to simplify your analysis, maybe you can assume the value of both multipliers is 1. That would means that the borrowed and supplied amounts would be capped by the amount of XVS staked, that's all
+
+{Reactions}
+🙌 (2) 
+
+[10/02/2023 08:51] thetechnofeak
+yaa sounds good now .ty
+
+
+[10/02/2023 09:17] _3agle
+Can we consider the alpha value as 0.5?
+
+
+[10/02/2023 09:31] alymurtazamemon
+Anybody else if need this foundry setup 👇, I could not finish the setup due to a single oracle contract, I found its mock contract but I could not understand what parameter it needs, and the contracts in scope is updating the oracle asserts and tokens underlining due to that I could not setup this completely. But if anyone can find the workaround then can use this.
+
+https://github.com/alymurtazamemon/foundry-playground-for-venus-audit.git
+
+{Embed}
+https://github.com/alymurtazamemon/foundry-playground-for-venus-audit.git
+GitHub - alymurtazamemon/foundry-playground-for-venus-audit: This i...
+This is a test setup for the Venus Audit contest held on Code4rena from Sept 29 2023 - Oct 05 2023. - GitHub - alymurtazamemon/foundry-playground-for-venus-audit: This is a test setup for the Venus...
+Code4rena - ARCHIVE-Q3-2023 - venus-sep28 [1154526680434610176].txt_Files/foundry-playground-for-venus-audit-6AF58
+
+
+[10/02/2023 09:31] 0xjaypi
+@chechu DM'ed you
+
+
+[10/02/2023 09:32] thetechnofeak
+it is 0.5 already , see the readme
+
+{Reactions}
+👍 
+
+[10/02/2023 09:33] varun2791
+What does unreleasedPSRincome and unreleasedPLPincome signify?Can anyone explain in detail
+
+
+[10/02/2023 09:33] varun2791
+@chechu
+
+
+[10/02/2023 09:36] 0x3b
+These are the incomes that **can** be sent to `Prime.sol`,  when needed.
+However they are still in their contract `PSRincome` and `PLPincome`, when sent (released) they will be reset to 0.
+
+{Reactions}
+👍 (2) 
+
+[10/02/2023 09:44] thetechnofeak
+why cant i download the previous audit report ?
+
+{Attachments}
+Code4rena - ARCHIVE-Q3-2023 - venus-sep28 [1154526680434610176].txt_Files/image-A17AD.png
+
+
+[10/02/2023 09:46] _3agle
+If you have cloned the repo then you already have it
+
+{Attachments}
+Code4rena - ARCHIVE-Q3-2023 - venus-sep28 [1154526680434610176].txt_Files/image-9FBAD.png
+
+{Reactions}
+🙌 
+
+[10/02/2023 09:47] thetechnofeak
+yeah thnks ,i didnt notice it
+
+
+[10/02/2023 10:04] 0xsl1
+In which case the irrevocable token can be burnt?
+
+
+[10/02/2023 10:14] mahdirostami
+the business criteria for issuing or burning these irrevocable tokens are not defined yet
+
+
+[10/02/2023 10:14] thetechnofeak
+yess
+
+
+[10/02/2023 10:14] thetechnofeak
+only defined for revocable tokens
+
+
+[10/02/2023 10:15] 0xsl1
+yeah i know, i was just wondering it the burning will also happen through a VIP
+
+
+[10/02/2023 10:15] mahdirostami
+yes
+
+
+[10/02/2023 10:15] 0xsl1
+thanks!
+
+
+[10/02/2023 10:16] mahdirostami
+@chechu  I DMed you sir
+
+
+[10/02/2023 12:54] nmirchev8
+Why PSR should call resetAsset function, when funds are released and PLP do it in the same function from inside the Prime contract?
+
+
+[10/02/2023 14:01] thebrittfactor (pinned)
+From the sponsor team: POC's in hardhat are ok, which could reduce in some cases the time needed to prepare POCs 🎉
+
+{Reactions}
+👏🏽 
+
+[10/02/2023 14:01] thebrittfactor
+Pinned a message.
+
+
+[10/02/2023 14:07] saint6704
+how are we changing account's borrow or supply balance
+
+
+[10/02/2023 14:07] saint6704
+?
+
+
+[10/02/2023 14:52] 0xnirlin
+Its not that we can't people can't write POC in hardhat, its just that it's more fun to do in foundry and easier XD
+
+
+[10/02/2023 14:55] 0xsl1
+Writing POC in hardhat for this contest made me realize how much i actually love foundry
+
+{Reactions}
+❤️ (3) 
+
+[10/02/2023 14:55] superman_i4g
+Yea, that's the real issue but I guess we need to adapt for cases like this even though most protocols/projects use Foundry more.
+
+
+[10/02/2023 14:56] 0xnirlin
+I won't, been a web developer, no more js/ts for me -_-
+
+{Reactions}
+😂 (2) 
+
+[10/02/2023 14:59] tapir31
+Do we need to write a test for PoCs tho?
+
+
+[10/02/2023 15:00] superman_i4g
+To avoid heartbreaks; just do if you can man
+
+
+[10/02/2023 15:01] tapir31
+I will not write PoC's for simple cases tho it does not make sense, it just a waste of time
+
+
+[10/02/2023 15:10] fulum
+PoC writing with foundry is not admissible?
+
+
+[10/02/2023 15:17] thebrittfactor
+Foundry is fine! The sponsors were just giving the wardens options 🙂
+
+
+[10/02/2023 15:17] fulum
+This info save my day, thanks
+
+{Reactions}
+🤣 (3) hi5 
+
+[10/02/2023 15:19] glcanvas
+is is possible to provide POC in human-readable description? 
+i.e. steps to reproduce?
+
+
+[10/02/2023 15:19] thebrittfactor
+However you'd like to provide!
+
+
+[10/02/2023 15:29] _3agle
+You guys talking about PoC, I haven’t found anything worth provable 😂
+
+{Reactions}
+🥲 (12) gummy_wink (3) 😆 🤣 (8) 
+
+[10/02/2023 16:13] 0xblackskull
+can anyone tell me how to pass `_checkAccessAllowed()` ??
+
+
+[10/02/2023 16:22] sp1cymeatball
+I found a lot,  but after writing POCs they all turned out to be false 😒
+
+
+[10/02/2023 16:30] pascal9476
+Please what is PSR
+
+
+[10/02/2023 16:39] 0xbtk
+ProtocolShareReserve contract https://github.com/VenusProtocol/protocol-reserve/blob/develop/contracts/ProtocolReserve/ProtocolShareReserve.sol
+
+{Embed}
+https://github.com/VenusProtocol/protocol-reserve/blob/develop/contracts/ProtocolReserve/ProtocolShareReserve.sol
+protocol-reserve/contracts/ProtocolReserve/ProtocolShareReserve.sol...
+Contracts for Protocol Reserve. Contribute to VenusProtocol/protocol-reserve development by creating an account on GitHub.
+Code4rena - ARCHIVE-Q3-2023 - venus-sep28 [1154526680434610176].txt_Files/protocol-reserve-2BD14
+
+{Reactions}
+❤️ 
+
+[10/02/2023 16:39] pascal9476
+I found one but I don’t think my computer can run foundry comfortably
+
+
+[10/02/2023 16:39] pascal9476
+So can’t test it
+
+
+[10/02/2023 16:42] 0xhuy0512
+the codebase is solid considering only has 1300 line of test code 🤯
+
+
+[10/02/2023 17:03] pascal9476
+Thank you
+
+
+[10/02/2023 18:16] daniel_dimitrov5
+`  accessControl.isAllowedToCall.returns(true);`
+
+
+[10/02/2023 18:18] daniel_dimitrov5
+There is a mock library @defi-wonderland/smock
+When you are writing tests you should include this line and set the behaviour as you wish just like in Prime.ts
+
+
+[10/02/2023 18:21] 0xblackskull
+@daniel_dimitrov5  i'm writing in foundry
+
+
+[10/02/2023 18:23] daniel_dimitrov5
+You just need a mock then
+
+
+[10/02/2023 18:23] daniel_dimitrov5
+Or you can simply remove the `_checkAccessAllowed()` because it is out of scope anyways
+
+{Reactions}
+🫡 
+
+[10/02/2023 18:35] fulum
+If anyone make test with foundry, how you had resolve the problems of compiler with multiples versions of solidity ? thx
+
+
+[10/02/2023 18:41] 0xblackskull
+you can just copy whole prime token contract in new foundry
+
+
+[10/02/2023 18:43] 0xblackskull
+all those contract use 0.8.13, you will not face multiple compiler issue
+
+
+[10/02/2023 19:09] 0k_sec
+what is interest in the `getPendingInterests` function? is it prime tokens?
+
+edit:
+the answer is here:
+https://github.com/code-423n4/2023-09-venus/blob/main/contracts/Tokens/Prime/README.md#income-collection-and-distribution
+
+{Embed}
+https://github.com/code-423n4/2023-09-venus/blob/main/contracts/Tokens/Prime/README.md
+2023-09-venus/contracts/Tokens/Prime/README.md at main · code-423n4...
+Contribute to code-423n4/2023-09-venus development by creating an account on GitHub.
+Code4rena - ARCHIVE-Q3-2023 - venus-sep28 [1154526680434610176].txt_Files/39e762b8-44ee-4035-aac7-04643a30dcc2-5B2FE
+
+
+[10/02/2023 19:29] asui0944
+what is the purpose of **issue** function 
+doesn't that break the whole process of staking 1000 XVS tokens for 90 days if the person who has the access to call the function can mint prime tokens to any users ?
+
+
+[10/02/2023 19:29] daniel_dimitrov5
+It is only possible to be called from the governance
+
+
+[10/02/2023 19:30] daniel_dimitrov5
+Which is a DAO I believe
+
+{Reactions}
+👍 (2) 
+
+[10/02/2023 19:33] asui0944
+only the GOAT answers his own question😆
+
+{Reactions}
+😂 (4) ❤️ 
+
+[10/02/2023 20:12] fulum
+Thanks :hi5:
+
+
+[10/02/2023 20:13] fulum
+https://discord.com/channels/810916927919620096/1154526680434610176/1158113843508162670
+
+{Reactions}
+🫡 
+
+[10/02/2023 20:19] lsaudit
+hey, who can i DM, who's the sponsor here?
+
+
+[10/02/2023 20:28] thetechnofeak
+its @chechu  ig
+
+
+[10/02/2023 20:28] lsaudit
+thanks, I've dmed him!
+
+
+[10/02/2023 21:04] 0k_sec
+https://discord.com/channels/810916927919620096/1154526680434610176/1155961740278902784
+
+
+[10/03/2023 00:17] _3agle
+Give it to me, let me try to run it 😆
+
+{Reactions}
+😂 (7) 
+
+[10/03/2023 00:51] doogooooo
+In which case the user's prime token would be burnt by the external burn fn?
+
+
+[10/03/2023 01:23] daureos
+when the Venus community decides it. There could be several criteria. I can imagine some of them (they are not defined yet), for example, the Venus community could decide to burn an irrevocable token if the user unstaked almost 100% of their XVS and they stopped using the protocol for a long time (this is only an example, provided by me, not by the Venus community)
+
+{Reactions}
+❤️ (3) 👌 (2) 
+
+[10/03/2023 06:30] 0xsilvermist
+Does anyone have a foundry setup that can share 😄
+
+
+[10/03/2023 06:58] daniel_dimitrov5
+^
+
+
+[10/03/2023 10:28] 0xprinc
+on which chains is the contracts gonna deploy ?
+
+
+[10/03/2023 10:29] 0xbtk
+Blockchains where this code will be deployed: BNB Chain, Ethereum mainnet, Arbitrum, Polygon zkEVM, opBNB.
+
+
+[10/03/2023 11:59] pinalikefruit
+so, practically "Irrevocable token" is out-of-scope, right? (because we don't have the definition)
+
+
+[10/03/2023 13:24] 0xdemonnn
+send  a dm :gummy_wink: @chechu
+
+
+[10/03/2023 13:33] 0xdetermination
+any sponsor available for DM? @chechu @narayanprusty
+
+
+[10/03/2023 14:13] narayanprusty
+@0xDetermination I got your query. I am answering it right now
+
+
+[10/03/2023 14:19] 0xdetermination
+@narayanprusty ty!
+
+
+[10/03/2023 14:28] gr34t.l4k3#1626
+@narayanprusty sent a dm
+
+
+[10/03/2023 14:30] narayanprusty
+@grearlake Replied
+
+
+[10/03/2023 14:38] 0xdemonnn
+@narayanprusty send a DM
+
+{Reactions}
+👍 
+
+[10/03/2023 14:52] lsaudit
+@narayanprusty  hey, i've sent you dm, please check in your free time
+
+{Reactions}
+👍 
+
+[10/03/2023 16:54] mike_bello90
+guys I know how to test in hardhat, give me your issues to test it jajaja 😂
+
+{Reactions}
+🌚 😂 🥸 
+
+[10/03/2023 18:29] fulum
+Hi, tha addMarket function is callable by the governance or the admin ? 🙂
+
+
+[10/03/2023 19:58] 0xlucian
+all functions that enforce access control by invoking `_checkAccessAllowed` will be called by governance through VIP (Venus Improvement Proposal)
+
+{Reactions}
+👍 
+
+[10/03/2023 21:23] mike_bello90
+friends anyone know how to mark the code in the report so the solidity code is highlighted?
+
+
+[10/03/2023 21:27] mike_bello90
+or how to insert a link to an image from my Mac in the report? 🤔
+
+
+[10/03/2023 21:35] mike_bello90
+@0xLucian Hi lucian send you a DM
+
+
+[10/03/2023 21:40] mike_bello90
+or who's available now to help me with a private question 😀 
+@chechu 
+@kkirka 
+@narayanprusty 
+@Manmeet22
+
+{Reactions}
+✋ 
+
+[10/03/2023 21:58] 0xbtk
+Started a thread.
+
+
+[10/04/2023 05:59] trachev
+@0xLucian sent a DM.
+
+{Reactions}
+🫡 
+
+[10/04/2023 06:48] doogooooo
+I heard discussions about having to have POC to get the full payout, is it enforced yet in this contest?
+
+
+[10/04/2023 06:49] _3agle
+https://discord.com/channels/810916927919620096/1154526680434610176/1157701614468071547
+
+
+[10/04/2023 06:51] doogooooo
+thank you!
+
+
+[10/04/2023 08:27] pascal9476
+Please what exactly is the upgrade in the xvs vault contract
+
+
+[10/04/2023 08:34] pascal9476
+@chechu @kkirka @narayanprusty @0xLucian @Manmeet22
+
+
+[10/04/2023 08:57] tumelo_crypto
+I'm not sure, but you might as well do it incase
+
+
+[10/04/2023 08:59] tumelo_crypto
+use hardhat for the PoC
+
+
+[10/04/2023 09:32] superman_i4g
+Quick question; does Alpha have a const value?
+
+
+[10/04/2023 10:28] 0xlucian
+Alpha is not constant, but alpha default value will be 0.5
+
+{Reactions}
+💯 
+
+[10/04/2023 11:56] 0xsandy
+@0xLucian sent you a dm
+
+
+[10/04/2023 12:11] daureos
+the upgraded XVSVault contract will notify Prime every time the XVS staked amount changes
+
+https://github.com/code-423n4/2023-09-venus/blob/main/contracts/XVSVault/XVSVault.sol#L298
+
+https://github.com/code-423n4/2023-09-venus/blob/main/contracts/XVSVault/XVSVault.sol#L501
+
+
+[10/04/2023 12:15] 0xsandy
+@chechu sent you a dm
+
+{Reactions}
+👍 
+
+[10/04/2023 12:29] 0xblackskull
+Alpha could be set to 0??
+
+
+[10/04/2023 12:31] _3agle
+Check this out: https://github.com/code-423n4/2023-09-venus/blob/main/contracts/Tokens/Prime/README.md#:~:text=borrowQVL%20%2B%20supplyQVL-,Significance%20of%20%CE%B1,-A%20higher%20value
+
+
+[10/04/2023 12:50] asui0944
+where is the function prime holders can call to get their rewards for their token ?
+
+
+[10/04/2023 12:52] asui0944
+Is it the claimInterest function?
+
+{Reactions}
+✅ (3) 
+
+[10/04/2023 14:52] daureos
+yes, according to https://github.com/code-423n4/2023-09-venus/blob/main/contracts/Tokens/Prime/Prime.sol#L809-L813
+
+
+[10/04/2023 14:53] 0xprinc
+Are xvs token that are present in vault, be taken out any time, or is there any timelock ?
+
+
+[10/04/2023 14:58] daureos
+users with XVS staked in the XVSVault can request their withdrawal and then (after a delay period of several days) really withdraw the XVS previously requested
+
+when the user requests the withdrawal of XVS, Prime is notified: https://github.com/code-423n4/2023-09-venus/blob/main/contracts/XVSVault/XVSVault.sol#L501
+
+{Reactions}
+👍🏻 
+
+[10/04/2023 15:16] 0xblackskull
+@chechu  please accept fr
+
+{Reactions}
+👍 
+
+[10/04/2023 16:01] deth2814
+@chechu sent a DM
+
+{Reactions}
+👍 
+
+[10/04/2023 20:02] C4
+**🚨 AUDIT ALERT**
+
+@🐺wardens The **Venus Prime** audit is now closed! Huge thanks to everyone who participated 🔍, whether you submitted a finding or not.
+
+What's next: The sponsor team and judge will review the findings over the next couple of weeks. Keep an eye on #📢announcements for regular updates on how the audit is progressing through awarding 🤑🏆, judging 🧑‍⚖️ and reporting 📜. Feel free to ping a Contest-Admin if you have questions along the way!
+
+{Reactions}
+C4Keycap (7) 🎉 (2) 🔥 (3) 🙇🏻 
+
+[10/04/2023 20:31] pascal9476
+How many submissions for this one who knows ?😅
+
+
+[10/04/2023 20:57] shubh0412
+659
+
+{Reactions}
+🫡 (7) 👀 (10) 
+
+[10/05/2023 06:03] saint6704
+thanks for your prompt reply @chechu , it was very nice working with you man
+
+{Reactions}
+❤️ (4) 
+
+[10/05/2023 08:40] superman_i4g
+Very true, @chechu was always there! 
+Had fun chatting with you ser, Gracias 🙌🏽
+
+{Reactions}
+❤️ (2) 
+
+[10/05/2023 11:52] blckhv
+Don’t forget to mention @0xLucian , who answered all my questions
+
+{Reactions}
+❤️ (4) 
+
+[10/05/2023 12:24] berlin.101
+Thanks @chechu and @narayanprusty for the great support when I had questions. 🙏
+
+{Reactions}
+❤️ (2) 
+
+[10/22/2023 09:26] saint6704
+Any news of results?
+
+
+[10/24/2023 08:38] squeaky_cactus
+Started a thread.
+
+
+[11/06/2023 21:55] xariextz
+:gummy_wink:
+
+
+[11/09/2023 12:19] _paperparachute
+🤑 🎉  Awards for **Venus Prime**:
+
+$10,783.76 USDC » @Testerbot 
+$1,161.45 USDC » @0xDetermination 
+$983.50 USDC » @Brenzee 
+$859.90 USDC » @ether_sky 
+$855.53 USDC » @SpicyMeatball 
+$853.09 USDC » @Breeje 
+$814.29 USDC » @tapir 
+$786.38 USDC » @santipu_ 
+$719.26 USDC » @0xTheC0der 
+$689.32 USDC » @sces60107 | GimelSec 
+$661.42 USDC » @pep7siup 
+$661.42 USDC » @ast3ros 
+$360.09 USDC » @said 
+$332.18 USDC » @Priyam 
+$327.81 USDC » @rokinot 
+$235.12 USDC » @blutorque 
+$235.12 USDC » @neumo 
+$235.12 USDC » PwnStars (@sakshamguruji, @qbs)
+$235.12 USDC » ThreeSigma (@0x73696d616f, @Carolina, @Eduardo, @SolidityDev99)
+$230.76 USDC » Pessimistic (@PavelCore,@yhtyyar, @olegggatttor)
+$223.09 USDC » @David Giladi 
+$211.72 USDC » @oakcobalt 
+$202.85 USDC » @seerether 
+$202.85 USDC » @Norah 
+$202.85 USDC » DeFiHackLabs (@SunSec, @AkshaySrivastav, @Sm4rty, @Cache_And_Burn, @ret2basic.eth, @zuhaibmohd, @sashik_eth, @Ronin) 
+$202.85 USDC » @bin2chen 
+$202.85 USDC » @hals 
+$198.48 USDC » @deadrosesxyz 
+$198.48 USDC » @dirk_y 
+$198.48 USDC » @turvy_fuzz 
+$185.96 USDC » @0xprinc 
+$179.45 USDC » @0x3b 
+$166.82 USDC » @deth 
+$163.76 USDC » @J4X 
+$157.24 USDC » @0xsload 
+$129.33 USDC » @mahdiRostami 
+$129.33 USDC » @HChang26 
+$129.33 USDC » @rvierdiiev 
+$129.33 USDC » @0xpiken 
+$129.33 USDC » @twicek 
+$129.33 USDC » @berlin.101 
+$129.33 USDC » @KrisApostolov 
+$129.33 USDC » @Doogoo 
+$129.33 USDC » @gkrastenov 
+$129.33 USDC » @merlin 
+$128.12 USDC » @lsaudit 
+$124.96 USDC » @sl1 
+$124.96 USDC » @aycozynfada 
+$123.75 USDC » @ICP 
+$123.75 USDC » @0xhacksmithh 
+$98.12 USDC » @Bauchibred 
+$62.21 USDC » @josephdara 
+$53.88 USDC » @0xweb3boy 
+$36.64 USDC » @Piña 
+$36.64 USDC » @xAriextz 
+$36.64 USDC » @al88nsk 
+$32.27 USDC » @debo 
+$32.27 USDC » @ADM 
+$32.27 USDC » @tsvetanovv 
+$32.27 USDC » @0xblackskull 
+$32.27 USDC » @dethera 
+$32.27 USDC » @Deleted User 
+$32.27 USDC » SBSecurity (@Blckhv, @Slavcheww) 
+$21.61 USDC » @ArmedGoose 
+$20.05 USDC » @0xWaitress 
+$20.05 USDC » @jkoppel 
+$17.24 USDC » @James 
+$17.24 USDC » @versiyonbir 
+$17.24 USDC » @kaveyjoe 
+$17.24 USDC » @hunter_w3b 
+$17.24 USDC » @radev_sw 
+$15.69 USDC » @hihen 
+$15.69 USDC » @pontifex
+
+
+[11/09/2023 12:21] _paperparachute
+$4.37 USDC » @ptsanev 
+$4.37 USDC » @orion 
+$4.37 USDC » @TangYuanShen 
+$4.37 USDC » @kutu 
+$4.37 USDC » @e0d1n 
+$4.37 USDC » @nadin 
+$4.37 USDC » @Hama 
+$4.37 USDC » @n1punp 
+$4.37 USDC » @terrancrypt 
+$4.37 USDC » @iceBear 
+$4.37 USDC » @nisedo 
+$4.37 USDC » @vagrant 
+$4.37 USDC » @nobody2018 
+$4.37 USDC » @peanuts 
+$4.37 USDC » @joaovwfreire 
+$4.37 USDC » @squeaky_cactus 
+$4.37 USDC » @Krace 
+$4.37 USDC » @Daniel526 
+$4.37 USDC » @sashik_eth 
+$4.37 USDC » @y4y 
+$4.37 USDC » @glcanvas 
+$4.37 USDC » @lotux 
+$4.37 USDC » @0xfusion 
+$4.37 USDC » @Tricko 
+$4.37 USDC » @MohammedRizwan 
+$4.37 USDC » @totovoto 
+$4.37 USDC » @d3e4 
+$4.37 USDC » @0xTiwa 
+$4.37 USDC » Mirror
+$4.37 USDC » @alexweb3 
+$4.37 USDC » @jnforja 
+$4.37 USDC » @SPY8OY 
+$4.37 USDC » @code-cipher 
+$4.37 USDC » @imare 
+$4.37 USDC » @Fulum 
+$4.37 USDC » @0xdice91 
+$4.37 USDC » @btk 
+$4.37 USDC » @0xMosh 
+$4.37 USDC » @ge6a 
+$4.37 USDC » @inzinko 
+$4.37 USDC » @0xScourgedev 
+$4.37 USDC » @Maroutis
+
+🏁 Findings summary
+--------------------------------------—
+High risk findings: 3 unique (53 total)
+Med risk findings: 2 unique (24 total)
+Gas reports: 11 (Best: @David Giladi)
+QA reports: 88 (Best: @Bauchibred)
+Advanced analysis reports: 14 (Best: @Priyam)
+
+Awards will be distributed on Polygon within the next week. Congratulations all!  💸 💸 💸
+
+*Note: If you participated in this audit and don’t see your name on this list, please wait until the report is published and the findings repo is made public to check on your submissions.*
+
+{Reactions}
+🎉 (5) 
+
+[11/09/2023 12:24] 0xdetermination
+congrats to @Testerbot!
+
+{Reactions}
+🤖 
+
+[11/09/2023 12:26] daniel526
+spent less than an hour on this for 4 bucks!!
+
+{Reactions}
+🫰 (2) 
+
+[11/09/2023 12:31] _3agle
+Kudos @Testerbot @0xDetermination 👍
+It was a good audit with a well-written codebase.
+
+{Reactions}
+🫡 🤖 
+
+[11/09/2023 12:33] saksham0290
+This was a tough one , looks like I missed the post-judging QA lol
+
+
+[11/09/2023 12:43] jvorex
+@Maroutis business as usual! gg :hi5:
+
+{Reactions}
+🫡 
+
+[11/09/2023 12:44] petrichor0961
+Defi Hack Lab 🦖🧙🏻‍♂️🤭
+
+{Reactions}
+10_10 
+
+[11/09/2023 12:44] blutorque
+Congrats Everyone,
+
+
+[11/09/2023 12:44] blutorque
+🔥
+
+
+[11/09/2023 12:47] jvorex
+congrats @0xhacksmithh @dirk_y
+
+
+[11/09/2023 14:10] daureos
+thank you everyone and congratulations on the rewards!
+
+{Reactions}
+🫡 (8) 
+
+[11/09/2023 15:10] moneyversed.eth
+kindly accept fr
+
+
+[11/09/2023 15:21] 0xdetermination
+TY @Priyam 😃
+
+
+[11/09/2023 15:23] versiyon1
+when are the payments made ? this is my  first earn
+
+
+[11/09/2023 16:20] lsaudit
+@versiyonbir  - "Awards will be distributed on Polygon within the next week. Congratulations all!". When payment is made, there's announce at #📢announcements channel
+
+
+[11/09/2023 17:03] 0xswahili
+Hehehe quite surprised my submission earned nothing. Itching to read the final report on this. Anyways we'll get there one day...✌️✌️ Congrats to the winners.
+
+
+[11/30/2023 21:07] mike_bello90
+Hi can someone tell me why my issue was marked as invalid, it has no comment why it's invalid an it's well explained  to be market as unsatisfactory https://github.com/code-423n4/2023-09-venus-findings/issues/279
+
+{Embed}
+https://github.com/code-423n4/2023-09-venus-findings/issues/279
+Vulnerability: A Malicious User can Burn any revocable token issue ...
+Lines of code https://github.com/code-423n4/2023-09-venus/blob/b11d9ef9db8237678567e66759003138f2368d23/contracts/Tokens/Prime/Prime.sol#L365-L382 Vulnerability details Impact Any User can Burn any...
+
+
+[02/24/2024 02:40] itsmetechjay
+ℹ️ This channel is pending archive.  As a result, any private threads will be permanently deleted on Saturday, 02 March 2024. Please make sure to grab anything you might need from those before then.
+
+
+==============================================================
+Exported 411 message(s)
+==============================================================
